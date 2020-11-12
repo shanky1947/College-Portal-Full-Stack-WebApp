@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>
+              Menu
+        </title>
+        <meta charset="UTF-8">
+        <!-- <link rel="icon" href="images.ico" type="image/icon type">
+        <link rel="stylesheet" type="text/css" href="assets/homestyle.css">
+        <script src="/assets/homejs.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
+        <script>
+
+
+
+
+    </script>
+
+    </head>
+    <body>
+      <div id="sidebar" class="collapsed">
+          <div id="second1">
+
+        <br>
+        <div class="container">
+
+            <br><br>
+
+          </div>
+            </div>
+                        <div id="third">
+                        <a href="home">Home</a>
+                        <a href="history">Booking History</a>
+                        <a href="mailto:mandeep.99@yahoo.com?Subject=Hello%20again" target="_top">Feedback</a>
+                        <a id="contbt" href="#">Contact</a>
+                        <p  style="font-family: Verdana, Geneva, Tahoma, sans-serif;padding: 30px;" id="cont">Email-ukanna@gmail.com <br><br>
+                        Helpline- <br> 9717318906
+                        </p>
+                      </div></div>
+            <div id="content">
+
+                <ul style="border-bottom: none" >
+            <li>
+            <a  class="btn"  id="unique" >Home</a></li>
+
+            <a  class="btn abts active"  onclick="window.location.href='/cabs'"  >Cabs</a></li>
+
+          </ul>
+                          <br><br>
+                          <% data.forEach(function(item){ %>
+
+
+<div class="block" style="padding-top: none">
+                    <img class="imageonly1" src="<%= item.imageURL %>" width="auto" height="15%">
+                    <p class="para3"><font size=5px><%= item.name %></font> <br>
+
+                   <font color="red" >Rs <%= item.price %>/km</font> | <font color="blue"> Save <%= item.discount %>%</font><br>
+                     <button class="btn1 btn3"  onclick="window.location.href='/bookcab/<%= item._id %>'">  bookcab</button>
+            </p>
+            </div>
+                          <% }); %>
+
+           <br><br><br>
+            </div>
+    </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="/assets/homepage-new.css">
+   <link rel="stylesheet" href="/assets/fontawesome-free-5.14.0-web/css/all.css">
+
+</head>
+
+<body>
+
+   <div id="nav">
+      <div id="navbar">
+        <a id="active" href="/home"><img src="/assets/icon.jpeg"></a>
+        <ul id="l">
+          <li><a id="active"  href="/home"><i class="fas fa-home"></i>Home</a></li>
+          <li><a href="/timetable"><i class="far fa-calendar-alt"></i>Timetable</a></li>
+          <li><a href="/teacher"><i class="fas fa-user-tie"></i>Faculty</a></li>
+          <li><a href="/attendance"><i class="fas fa-calendar-check"></i>Attendance</a></li>
+          <li><a  href="/coursepage"><i class="fas fa-book"></i>Course Page</a></li>
+          <li><a  href="/submit"><i class="fas fa-file-code"></i>Assigment</a></li>
+          <li><a  href="/about"><i class="fas fa-file-powerpoint"></i>About Us</a></li>
+        </ul>
+      </div>
+   </div>
+   <%data.forEach(function(user){%>
+      <%if(user.username==currentuser.username){%>
+   <div id="search">
+      <div class="row m-0">
+         <div class="col-md-9" id="left">
+            <h1 class="display-4">Weclome <%=user.studentinfo.fname%> to Student Portal Home</h1>
+         </div>
+         <div class="col-md-3 p-0" id="right">
+            <h2></h2>
+             <button class="btn btn-outline-dark ml-5 my-3" id="myBtn" onclick="window.location.href='/main'">Log OUT</button>
+         </div>
+      </div>
+      <div class="row">
+         <div class="col pr-1">
+           <div class="std">
+             <div class="card2">
+               <p style="font-size: large;"><b><i><u>Student Information</u></i></b></p>
+               <p>
+               <table style="width:100%">
+               <tr>
+                 <th>Firstname</th>
+                 <td><%=user.studentinfo.fname%></td>
+                 <th>Lastname</th>
+                 <td><%=user.studentinfo.lname%></td>
+               </tr>
+               <tr>
+                 <th>Registration Number </th>
+                 <td><%=user.studentinfo.rno%></td>
+               </tr>
+               <tr>
+                 <th>Phone Number </th>
+                 <td><%=user.studentinfo.pno%></td>
+               </tr>
+               <tr>
+                 <th>Email ID </th>
+                 <td><%=user.studentinfo.email%></td>
+               </tr>
+               <tr>
+                 <th>Stream </th>
+                 <td><%=user.studentinfo.stream%></td>
+                 <th>Current Sem </th>
+                 <td><%=user.studentinfo.csem%></td>
+                 <th>CGPA </th>
+                 <td><%=user.studentinfo.cgpa%></td>
+
+                </tr>
+
+                 </table></p>
+
+             </div>
+             <div class="card2">
+               <p style="font-size: large;"><b><i><u>Hostel Details</u></i></b></p>
+               <p>
+                 <table style="border-color: black; border-style: solid;">
+                   <tr style="border-color: black; border-style: solid;">
+                     <td style="border-color: black; border-style: solid;">Registration No:</td>
+                     <td style="border-color: black; border-style: solid;"><%=user.studentinfo.rno%></td>
+                     <td style="border-color: black; border-style: solid;" rowspan="3" colspan="2" ><img src="/assets/img.png" width="80" height="80" style="align-self: auto;"> </td>
+                   </tr>
+                   <tr style="border-color: black; border-style: solid;">
+                     <td style="border-color: black; border-style: solid;">Hostel Block:</td>
+                     <td style="border-color: black; border-style: solid;"><%=user.hdetails.htype%></td>
+                   </tr>
+                   <tr style="border-color: black; border-style: solid;">
+                     <td style="border-color: black; border-style: solid;">Block Name:</td>
+                     <td style="border-color: black; border-style: solid;"><%=user.hdetails.hblock%></td>
+                   </tr>
+                   <tr style="border-color: black; border-style: solid;">
+                     <td style="border-color: black; border-style: solid;">Mess Name:</td>
+                     <td style="border-color: black; border-style: solid;"><%=user.hdetails.mname%></td>
+                     <td style="border-color: black; border-style: solid;">Mess type:
+                     </td>
+                     <td style="border-color: black; border-style: solid;"><%=user.hdetails.mtype%></td>
+                   </tr>
+                   <tr style="border-color: black; border-style: solid;">
+                     <td style="border-color: black; border-style: solid;" colspan="2">Warden Incharge:</td>
+                     <td style="border-color: black; border-style: solid;" colspan="2"><%=user.hdetails.wincharge%></td>
+                   </tr>
+                   <tr style="border-color: black; border-style: solid;">
+                     <td style="border-color: black; border-style: solid;" colspan="2">Cheif Warden:</td>
+                     <td style="border-color: black; border-style: solid;" colspan="2"><%=user.hdetails.cwarden%></td>
+                   </tr>
+                 </table>
+               </p>
+             </div>
+             <div class="card2">
+               <p style="font-size: large;"><b><i><u>Clubs/Chapters Activities</u></i></b></p>
+               <p><i class='fas fa-angle-double-right'></i><b>Nutrition Club - </b>Competition for our participants to grow some vegetables or herbs in their garden which are nutritious and beneficial.</p>
+               <p><i class='fas fa-angle-double-right'></i><b>IEEE SAS -</b> is now recruiting freshers and 2nd year students. Visit our website and fill the registration form before 31st Sept'20</p>
+             </div>
+
+           </div>
+         </div>
+         <aside class="one" >
+           <marquee behavior="scroll" direction="left"><h1>Highlights</h1></marquee>
+
+           <div class="card1">
+               <h4><b>Anouncements<span class="badge badge-pill badge-warning">New</span></b></h4>
+               <p>1.Cat 2 will commence from 14th Sept'20. Refers Dean's mail for more details.</p>
+               <p>2. The last date to pay academic fee is 10th Sept'20</p>
+           </div>
+           <div class="card1">
+             <h4><b>Deadlines for today<span class="badge badge-pill badge-danger">Imp</span></b></h4>
+             <ul>
+               <li><%=user.deadline.d1%></li>
+               <li><%=user.deadline.d2%></li>
+               <li><%=user.deadline.d3%></li>
+             </ul>
+         </div>
+         <div class="card1">
+          <h4><b>About VIT</b></h4>
+          <p>VIT was established with the aim of providing quality higher education on par with international standards. It persistently seeks and adopts innovative methods to improve the quality of higher education on a consistent basis.The campus has a cosmopolitan atmosphere with students from all corners of the globe. Experienced and learned teachers are strongly encouraged to nurture the students. The global standards set at VIT in the field of teaching and research spur us on in our relentless pursuit of excellence. In fact, it has become a way of life for us. The highly motivated youngsters on the campus are a constant source of pride. Our Memoranda of Understanding with various international universities are our major strength. They provide for an exchange of students and faculty and encourage joint research projects for the mutual benefit of these universities. Many of our students, who pursue their research projects in foreign universities, bring high quality to their work and esteem to India and have done us proud. With steady steps, we continue our march forward. We look forward to meeting you here at VIT.</p>
+      </div>
+
+       </aside>
+
+
+       </div>
+   </div>
+ <%}})%>
+</body>
+
+</html>

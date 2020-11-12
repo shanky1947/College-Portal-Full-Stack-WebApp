@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>School Portal</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			font-family: Century Gothic;
+		}
+
+		header {
+			background-color: rgb(245, 244, 244);
+			height: 100vh;
+			background-size: cover;
+			background-position: center;
+		}
+
+
+
+		.title {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.title h1 {
+			color: black;
+			font-size: 60px;
+		}
+
+		.button {
+			position: absolute;
+			top: 60%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+
+
+		.main {
+			max-width: 1200px;
+			margin: auto;
+		}
+
+		.btn:hover {
+			background-color: #fff;
+			color: #000;
+		}
+
+		.btn {
+			/* margin: 10px 120px; */
+			margin: 10px 0;
+			background-color: rgb(17, 16, 16);
+			color: white;
+			font-size: 20px;
+			padding: 5px 15px;
+			border: 4px solid black;
+			border-radius: 10px;
+			cursor: pointer;
+		}
+
+		.search {
+			padding: 0 0 2% 0;
+			position: fixed;
+			height: 100%;
+			background: #f7f7f7;
+			width: 100%;
+			/* margin-left: 12%; */
+			
+		}
+
+		.search h1 {
+			font-weight: 400;
+			padding-left: 1%;
+		}
+
+		#left {
+			background-color: black;
+			padding: 1rem;
+			color: white;
+		}
+
+		#right {
+			background-color: #ffca00;
+			padding: 1rem;
+		}
+		#img1{
+			height: 110px;
+		}
+		    #main_heading {
+        padding: 20px 0 0 0;
+    }
+	</style>
+</head>
+
+<body>
+	<header>
+		<div class="search">
+			<div class="row m-0">
+				<div class="col-md-9" id="left">
+					<div class="row">
+						<div class="col-3">
+							<img id="img1"
+								src="https://tse3.mm.bing.net/th?id=OIP.PuKiekfN9IIhzCTuJoDnJgAAAA&pid=Api&P=0&w=300&h=300"
+								alt="">
+						</div>
+						<div class="col-9">
+							<h1 class="display-4" id="main_heading">Weclome to Student Portal</h1>
+	
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 p-0" id="right">
+					<h2></h2>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+
+
+
+			<div class="button">
+				<a href="/signup" class="btn" onclick="window.location.href='/signup'">SIGN UP</a>
+				<a href="/login" class="btn" onclick="window.location.href='/login'">LOGIN</a>
+			</div>
+		</div>
+	</header>
+</body>
+
+</html>

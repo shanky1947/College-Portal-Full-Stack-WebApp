@@ -1,0 +1,143 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.container-fluid{
+    position: fixed; 
+    height: 100%;
+}
+
+#nav{
+    margin: 0%;
+    width: 12%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background: white;
+}
+
+#navbar{
+    line-height: 5rem;
+} 
+
+#l li{
+    padding: 0;
+    list-style-type: none;
+}
+
+ul{
+    padding-top: 2px;
+    padding-left: 1px;
+}
+
+#l i{
+    font-size: 17px;
+    color: #ffca00;
+    padding-right: 15px;
+    padding-left: 25px;
+}
+
+#l a{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#navbar img {
+   height: 150px;
+   width: 150px; 
+   padding-left: 10px;
+}
+#search{
+    padding: 0 0 2% 0;
+    position: fixed;
+    height: 100%;
+    background:#f7f7f7;
+    width: 88%;
+    margin-left: 12%;
+}
+
+
+#left {
+    background-color: black;
+    padding: 1rem;
+    color: white;
+}
+#right{
+    background-color: #ffca00;
+    padding: 1rem;  
+}
+#search h1{
+    font-weight: 400;
+    padding-left: 1%;
+}
+
+#search .row{
+    padding-left: 2% 2% 2% 2% ;
+    margin-top: 3.5%; ;
+}
+
+#black{
+    background: #ffca00;
+    color: white; 
+}
+
+#white{
+    background: #ffca00 ;
+}
+
+.display-4{
+    font-size: 2.5rem;
+}
+
+.rounded-circle{
+    padding: 0.25rem;
+    background-color: #ffca00;
+    border: 0.5px solid #dee2e6;
+    height: 100px;
+    width: 100px;
+
+}
+
+#button {
+    border: none;
+    background-color: white;
+    color: #ffca00;
+}
+
+#myFile {
+    width: 210px;
+}
+
+#button i{
+    font-size: 21px;
+}
+
+#content{
+    position: fixed;
+    width: 90%;
+    height: 100%;
+
+}
+
+.card1{
+    background-color:white;
+    border-radius: 5px;
+    border-color:#ffca00 ;
+    border-style: solid;
+    margin-top: 1rem;
+    margin-left: 6rem ;
+    margin right: 8rem;
+    padding: 10px;
+    width: 1130px;
+}
+
+#l #active{
+    color: #ffca00;
+}
+
+#l a:hover{
+    color: #ffca00;
+    text-decoration: none;
+}

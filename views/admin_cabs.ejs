@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+              Add Cabs
+        </title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="images.ico" type="image/icon type">
+        <link rel="stylesheet" type="text/css" href="assets/homestyle.css">
+       
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script>
+       
+
+  
+    
+    </script>
+
+    </head>
+    <body>
+      <div id="sidebar" class="collapsed">
+         </div>
+            <div id="content"><ul>
+                    
+         <li><a href="/addcabs">Add Cabs</a></li>
+         <li><a href="/viewbookings">View Records</a></li>
+       <li> <a href="/logout">Sign out</a></li> 
+        </ul> <br><br>
+                          <% cabs.forEach(function(item){ %>
+                            
+
+                            <div class="block" style="padding-top: none">
+                    <img class="imageonly1" src="<%= item.imageURL %>" width="auto" height="15%">
+                    <p class="para3"><font size=5px><%= item.name %></font> <br>
+                  
+                   <font color="red" >Rs <%= item.price %>/km</font> | <font color="blue"> Save <%= item.discount %>%</font><br>
+                     
+            </p>
+            </div>
+                          <% }); %>
+            
+           <br><br><br>
+            </div> 
+    </body>
+</html>

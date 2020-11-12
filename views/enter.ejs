@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+</head>
+<style>
+body{
+    font-family:'Balsamiq Sans', cursive;;
+margin:0px;
+padding 0px;
+background-color: rgb(245, 244, 244);
+color:white;
+}
+.left{
+/* border: 2px solid red; */
+display:inline-block;
+position:absolute;
+left:34px;
+top:12px;
+
+
+}
+.mid{
+/* border:2px solid yellow; */
+display:block;
+width:83%;
+margin:2px auto;
+position:absolute;
+left:220px;
+
+}
+
+}
+.right{
+position:absolute;
+right:34px;
+top:12px;
+/* border:2px solid green; */
+display:inline-block;
+
+
+}
+.left img{
+width:140px;
+}
+.left div{
+text-align: center;
+font-size: 30px;
+color:white;
+font-weight: bold;
+background-color: rgb(230, 156, 20);
+margin:5px;
+}
+.navbar{
+display:inline-block;
+background-color: black;
+padding: 10px;
+
+}
+.navbar1{
+display:inline-block;
+background-color:rgb(241, 208, 16);
+padding: 17px;
+color:rgb(241, 208, 16);
+}
+.navbar li{
+display: inline-block;
+font-size:20px;
+color:black;
+text-decoration:none;
+padding:4px 23px;
+}
+.navbar li a{
+display:inline-block;
+color:black;
+/* background-color: rgb(240, 179, 12); */
+text-decoration:none;
+padding:4px 23px;
+}
+.single{
+background-color: black;
+
+
+}
+/* .navbar li a:hover{
+text-decoration:underline;
+/* color:darkgray; */
+/* background-color: rgb(240, 179, 12);
+border:4px solid black;
+border-radius: 13px;
+} */
+
+.btn{
+margin:10px 120px;
+background-color:rgb(17, 16, 16);
+color:white;
+font-size: 20px;
+padding: 5px 15px;
+border: 4px solid black;
+border-radius: 10px;
+cursor:pointer;
+}
+/* .btn:hover{
+background-color: rgb(250, 207, 15);
+} */
+.container{
+border:5px solid rgb(240, 207, 19);;
+background-color: white;
+border-radius: 5px;
+margin:150px 2px;
+padding:50px;
+width:23%;
+position:absolute;
+top:10px;
+left:520px;
+
+}
+.container h1{
+color: black;
+text-decoration:underline;
+
+/* background-color: rgb(226, 160, 17); */
+border-radius:5px;
+font-size:50px;
+display:inline-block;
+position:absolute;
+left:160px;
+top:1px;
+}
+.form input{
+margin:3px;
+color:black;
+text-align: center;
+display:block;
+width:360px;
+font-size:20px;
+border-radius:5px ;
+padding:9px 0px;
+background-color:white;
+}
+
+</style>
+
+<body>
+    <div class="mid">
+        <ul class="navbar">
+            <li>About us</li>
+            <li>Placement Cell</li>
+            <li>Admissions</li>
+            <li>Events></li>
+            <li>About us</li>
+            <li>Placement Cell</li>
+
+            <!-- <li class="single"><a href="#">Eventsbndfjvbsdjvnsdjvsjvasjv</a></li> -->
+
+        </ul>
+        <div class="navbar1">
+            About usndsjvsjcasckjascjascjsac
+        <!-- <ul class="navbar">
+             <li c>dbcdscjscsbcscjscj</li> -->
+        </div>
+
+    </div>
+
+    <form action="/enter" method="POST" class="container">
+        <h2 style="color:rgb(241, 208, 16)">Enter Details</h2>
+        <div class="form">
+        <label style="color:black" for="username"><b>Username</b></label><br>
+        <input type="text" name="username" placeholder="username"><br>
+        <br>
+        <!-- <label for="a">Enter Personal deta</b></label><br> -->
+        <h2 style="color:rgb(241, 208, 16)"\>Enter personal details</h3>
+        <label style="color:black" for="fname"><b>First Name</b></label><br>
+        <input type="text" name="fname" placeholder="Enter your first name">
+        <br><br>
+        <label style="color:black" for="lname"><b>Last Name</b></label><br>
+        <input type="text" name="lname" placeholder="Enter your last name">
+        <br><br>
+        <label style="color:black" for="rno"><b>Registraion No.</b></label><br>
+        <input type="text" name="rno" placeholder="Enter your rno">
+        <br><br>
+        <label style="color:black" for="pno"><b>Phone Number</b></label><br>
+        <input type="text" name="pno" placeholder="Enter your pno">
+        <br><br>
+        <label style="color:black" for="email"><b>Email</b></label><br>
+        <input type="email" name="email" placeholder="Enter your email">
+        <br><br>
+        <label style="color:black" for="stream"><b>Stream</b></label><br>
+        <input type="text" name="stream" placeholder="Enter your stream">
+        <br><br>
+        <label style="color:black" for="csem"><b>Current Sem</b></label><br>
+        <input type="text" name="csem" placeholder="Enter your csem">
+        <br><br>
+        <label style="color:black"for="cgpa"><b>CGPA</b></label><br>
+        <input type="text" name="cgpa" placeholder="Enter your CGPA">
+        <br><br>
+        <h2 style="color:rgb(241, 208, 16)">Enter hostel details</h3>
+        <label style="color:black" for="htype"><b>Hostel Type</b></label><br>
+        <input type="text" name="htype" placeholder="Enter your htype">
+        <br><br>
+        <label style="color:black" for="hblock"><b>Block Name</label><br>
+        <input type="text" name="hblock" placeholder="Enter your hblock">
+        <br><br>
+        <label style="color:black" for="mname"><b>Mess Name</b></label><br>
+        <input type="text" name="mname" placeholder="Enter your mname">
+        <br><br>
+        <label style="color:black" for="mtype"><b>Mess type</b></label><br>
+        <input type="text" name="mtype" placeholder="Enter your mtype">
+        <br><br>
+        <label style="color:black" for="wincharge"><b>Warden Incharge</b></label><br>
+        <input type="text" name="wincharge" placeholder="Enter your wincharge">
+        <br><br>
+        <label style="color:black" for="cwarden"><b>Chief warden</b></label><br>
+        <input type="text" name="cwarden" placeholder="Enter your cwarden">
+        <br><br>
+        <h2 style="color:rgb(241, 208, 16)">Enter deadlines</h3>
+        <label style="color:black" for="d1"><b>Enter deadline 1</b></label><br>
+        <input type="text" name="d1" placeholder="Enter your d1">
+        <br><br>
+        <label style="color:black" for="d2"><b>Enter deadline 2</b></label><br>
+        <input type="text" name="d2" placeholder="Enter your d2">
+        <br><br>
+        <label style="color:black" for="d3"><b>Enter deadline 3</b></label><br>
+        <input type="text" name="d3" placeholder="Enter your d3">
+        <br /><br />
+        <button class="btn" type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

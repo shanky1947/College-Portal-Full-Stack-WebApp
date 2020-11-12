@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+       <style>
+           body {background-color: #ffca00;}
+           .black{background-color: black; color:white;width: 1100px;text-align: center;}
+           .box{background-color: white; border: 5px; border-color: black; border-radius: 5px; border-style: double; padding: 10px; margin-top: 10px; }
+
+       </style>
+    </head>
+
+  <body>
+    <div class="container my-3">
+      <div class="black"> <h2>Welcome Admin</h2></div>
+      <div class=box><h3><a href="/enter">Enter the details of student into the database</a></h3><br></div>
+      <div class= box><h3>Get plagarism of files uploaded</h3><br>
+      <h4>Select any two students among the list</h4>
+      <form class="" action="/getdata" method="post">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="0" id="c1" name="c1">
+          <label class="form-check-label" for="c1">Shashank</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="1" id="c2" name="c2">
+          <label class="form-check-label" for="c2">Mihir</label>
+        </div>
+        <!-- <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="2" id="c3" name="c3">
+          <label class="form-check-label" for="c3">Rohan</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="3" id="c4" name="c4">
+          <label class="form-check-label" for="c4">Mahima</label>
+        </div> -->
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+      </div>
+    </div>
+  </body>
+</html>

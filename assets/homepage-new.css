@@ -1,0 +1,191 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.container-fluid{
+    position: fixed; 
+    height: 100%;
+}
+
+#nav{
+    margin: 0%;
+    width: 12%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background: white;
+}
+
+#navbar{
+    line-height: 5rem;
+} 
+
+#l li{
+    padding: 0;
+    list-style-type: none;
+}
+
+ul{
+    padding-top: 2px;
+    padding-left: 1px;
+}
+
+#l i{
+    font-size: 17px;
+    color: #ffca00;
+    padding-right: 15px;
+    padding-left: 25px;
+}
+
+#l a{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#navbar img {
+   height: 150px;
+   width: 150px; 
+   padding-left: 10px;
+}
+#search{
+    padding: 0 0 2% 0;
+    position: fixed;
+    height: 100%;
+    background:#f7f7f7;
+    width: 88%;
+    margin-left: 12%;
+    overflow-y: scroll;
+}
+
+
+#left {
+    background-color: black;
+    padding: 1rem;
+    color: white;
+}
+#right{
+    background-color: #ffca00;
+    padding: 1rem;  
+}
+#search h1{
+    font-weight: 400;
+    padding-left: 1%;
+}
+
+/*#search .row{
+    padding-left: 2% 2% 2% 2% ;
+    margin-top: 3.5%; ;
+}*/
+
+#black{
+    background: #ffca00;
+    color: white; 
+}
+
+#white{
+    background: #ffca00 ;
+}
+
+.display-4{
+    font-size: 2.5rem;
+}
+
+.rounded-circle{
+    padding: 0.25rem;
+    background-color: #ffca00;
+    border: 0.5px solid #dee2e6;
+    height: 100px;
+    width: 100px;
+
+}
+
+#button {
+    border: none;
+    background-color: white;
+    color: #ffca00;
+}
+
+#myFile {
+    width: 210px;
+}
+
+#button i{
+    font-size: 21px;
+}
+
+#content{
+    position: fixed;
+    width: 90%;
+    height: 100%;
+
+}
+
+.std {
+    border-radius: 5px;
+    background-color: white;
+    border-color: black;
+    width: 655px;
+    height: 200px;
+    margin:5px;
+    color: black;
+    /* padding-left: 50px; */
+}
+
+.card2{
+    background-color:  #ffca00;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+
+.one { 
+    float:right; 
+    width: 30%; 
+    float: right; 
+    background-color: black; 
+    /*color: white; */
+    padding:5px;  
+    margin:20px; 
+    height:1200px;
+    border-radius: 25px; 
+    color: azure;
+    text-align: center;
+} 
+
+
+.card1 {
+    /* Add shadows to create the "card" effect */
+    transition: 0.3s;
+    background-color: black;
+    color: #F3C74A;
+    border-color: #F3C74A;
+    border-radius: 5px;
+    border-bottom-style: dashed;
+    border-top-style: dashed;
+    margin: 10px;
+    text-align: left;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  h4.card1{
+      text-align: center;
+  }
+
+  
+  #l #active{
+    color: #ffca00;
+}
+
+#l a:hover{
+    color: #ffca00;
+    text-decoration: none;
+}

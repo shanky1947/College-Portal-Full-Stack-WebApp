@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Plagraism</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container">
+        <div class="jumbotron">
+          <h3 class="display-4">Ouput</h3>
+          <ul>
+              <%
+              arr=[]
+              var string="";
+              for(var i=0;i<data.length;i++){
+                if(data[i]!==','){
+                    string=string+data[i];
+                }
+                else{
+                  arr.push(string)
+                  string=""
+                }
+              }
+              arr.forEach(function(i){ %>
+                <li style="font-size:30px"><%=i%></li>
+              <%})
+              %>
+          </ul>
+        </div>
+      </div>
+  </body>
+</html>

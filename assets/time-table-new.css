@@ -1,0 +1,276 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.container-fluid{
+    position: fixed; 
+    height: 100%;
+}
+
+#nav{
+    margin: 0%;
+    width: 12%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background: white;
+}
+
+#navbar{
+    line-height: 5rem;
+} 
+
+#l li{
+    padding: 0;
+    list-style-type: none;
+}
+
+ul{
+    padding-top: 2px;
+    padding-left: 1px;
+}
+
+#l i{
+    font-size: 17px;
+    color: #ffca00;
+    padding-right: 15px;
+    padding-left: 25px;
+}
+
+#l a{
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#navbar img {
+   height: 150px;
+   width: 150px; 
+   padding-left: 10px;
+}
+#search{
+    padding: 0 0 2% 0;
+    position: fixed;
+    height: 100%;
+    background:#f7f7f7;
+    width: 88%;
+    margin-left: 12%;
+}
+
+
+#left {
+    background-color: black;
+    padding: 1rem;
+    color: white;
+}
+#right{
+    background-color: #ffca00;
+    padding: 1rem;  
+}
+#search h1{
+    font-weight: 400;
+    padding-left: 1%;
+}
+
+#search .row{
+    padding-left: 2% 2% 2% 2% ;
+    margin-top: 3.5%; ;
+}
+
+#black{
+    background: #ffca00;
+    color: white; 
+}
+
+#white{
+    background: #ffca00 ;
+}
+
+.display-4{
+    font-size: 2.5rem;
+}
+
+.rounded-circle{
+    padding: 0.25rem;
+    background-color: #ffca00;
+    border: 0.5px solid #dee2e6;
+    height: 100px;
+    width: 100px;
+
+}
+
+#button {
+    border: none;
+    background-color: white;
+    color: #ffca00;
+}
+
+#myFile {
+    width: 210px;
+}
+
+#button i{
+    font-size: 21px;
+}
+
+
+
+
+.container th{
+        font-weight: 800;
+        }    
+
+
+    .container{
+    /* display: inline; */
+    border:8px solid rgb(240, 205, 7);
+    border-radius: 5px;
+    margin:145px 10px;
+    padding:20px;
+    width:18%;
+    Height:63%;
+    position:absolute;
+    top:80px;
+    left:10px;
+    background-color:black;
+    color: white;
+    }
+    .container1{
+    /* display: inline-block; */
+    border:8px solid rgb(240, 205, 7);
+    border-radius: 5px;
+    margin:145px 30px;
+    padding:20px;
+    width:18%;
+    Height:63%;
+    position:absolute;
+    top:80px;
+    left:260px;
+    background-color:black;
+    color: white;
+    }
+    .container2{
+    display: inline;
+    border:8px solid rgb(240, 205, 7);;
+    border-radius: 5px;
+    margin:145px 60px;
+    padding:20px;
+    width:18%;
+    Height:63%;
+    position:absolute;
+    top:80px;
+    left:500px;
+    background-color:black;
+    color: white;
+    }
+    .container3{
+    display: inline;
+    border:8px solid rgb(240, 205, 7);;
+    border-radius: 5px;
+    margin:145px 90px;
+    padding:20px;
+    width:18%;
+    Height:63%;
+    position:absolute;
+    top:80px;
+    left:735px;
+    background-color:black;
+    color: white;
+    }
+    .container4{
+    display: inline;
+    border:8px solid rgb(240, 205, 7);;
+    border-radius: 5px;
+    margin:145px 110px;
+    padding:20px;
+    width:18%;
+    Height:63%;
+    position:absolute;
+    top:80px;
+    left:980px;
+    background-color:black;
+    color: white;
+    }
+    .container h1{
+    color: white;
+    text-decoration:underline;
+    
+    background-color: rgb(49, 43, 43);
+    font-size:50px;
+    display:inline-block;
+    }
+
+    .Day1{
+        display: inline;
+        color:black;
+        background-color: rgb(240, 205, 10);
+        position: absolute;
+        top: 180px;
+        left: 25px;
+        font-size: xx-large;
+        font-weight: bolder;
+        padding:7px 27px;
+        margin:-4px;
+        }
+        .Day2{
+        display: inline;
+        color:black;
+        background-color: rgb(240, 205, 10);
+        position: absolute;
+        top: 180px;
+        left:295px;
+        font-size: xx-large;
+        font-weight: bolder;
+        padding:7px 27px;
+        margin:-4px;
+        }
+        .Day3{
+        display: inline;
+        color:black;
+        background-color: rgb(240, 205, 10);
+        position: absolute;
+        top: 180px;
+        left: 565px;
+        font-size: xx-large;
+        font-weight: bolder;
+        padding:7px 27px;
+        margin:-4px;
+        }
+        .Day4{
+        display: inline;
+        color:black;
+        background-color: rgb(240, 205, 10);
+        position: absolute;
+        top: 180px;
+        left:830px;
+        font-size: xx-large;
+        font-weight: bolder;
+        padding:7px 27px;
+        margin:-4px;
+        }
+        .Day5{
+        display: inline;
+        color:black;
+        background-color: rgb(240, 205, 10);
+        position: absolute;
+        top: 180px;
+        left:1095px;
+        font-size: xx-large;
+        font-weight: bolder;
+        padding:7px 27px;
+        margin:-4px;
+        }
+
+       #search ul{
+            padding-left: 20px;
+        }
+
+        #l #active{
+            color: #ffca00;
+        }
+
+        #l a:hover{
+            color: #ffca00;
+            text-decoration: none;
+        }

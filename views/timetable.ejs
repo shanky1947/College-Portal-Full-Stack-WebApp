@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="/assets/time-table-new.css">
+   <link rel="stylesheet" href="/assets/fontawesome-free-5.14.0-web/css/all.css">
+
+</head>
+
+<body>
+
+   <div id="nav">
+      <div id="navbar">
+        <a id="active" href="/home"><img src="/assets/icon.jpeg"></a>
+        <ul id="l">
+          <li><a  href="/home"><i class="fas fa-home"></i>Home</a></li>
+          <li><a id="active" href="/timetable"><i class="far fa-calendar-alt"></i>Timetable</a></li>
+          <li><a  href="/teacher"><i class="fas fa-user-tie"></i>Faculty</a></li>
+          <li><a href="/attendance"><i class="fas fa-calendar-check"></i>Attendance</a></li>
+          <li><a  href="/coursepage"><i class="fas fa-book"></i>Course Page</a></li>
+          <li><a  href="/submit"><i class="fas fa-file-code"></i>Assigment</a></li>
+          <li><a  href="/about"><i class="fas fa-file-powerpoint"></i>About Us</a></li>
+        </ul>
+      </div>
+   </div>
+   <%data.forEach(function(user){%>
+      <%if(user.username==currentuser.username){%>
+   <div id="search">
+      <div class="row m-0">
+         <div class="col-md-9" id="left">
+            <h1 class="display-4">Time Table of <%=user.name%></h1>
+         </div>
+         <div class="col-md-3 p-0" id="right">
+            <h2></h2>
+         </div>
+      </div>
+      <!-- <div class="row mt-4">
+         <div class="col"> -->
+      <!-- <div class="row justify-content-center">
+               <div class="col-3">
+               </div>
+            </div> -->
+      <div class="Day1">
+         Monday
+      </div>
+      <div class="container">
+         <th>
+            <li style="font-size: x-large;">8:00 - 9:00 </li>
+         </th>
+         <ul>
+            <li><%=user.monday.eight.subject%> (<%=user.monday.eight.room%>)</li>
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">9:00 -10:00</li>
+         </th>
+         <ul>
+            <li><%=user.monday.nine.subject%> (<%=user.monday.nine.room%>)</li>
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">10:00 - 11:00</li>
+         </th>
+         <ul>
+            <li><%=user.monday.ten.subject%> (<%=user.monday.ten.room%>)</li>
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">11:00 - 12:00</li>
+         </th>
+         <ul>
+            <li><%=user.monday.ele.subject%> (<%=user.monday.ele.room%>)</li>
+         </ul>
+         <hr><br>
+      </div>
+
+      <div class="Day2">
+         Tuesday
+      </div>
+      <div class="container1">
+         <th>
+            <li style="font-size: x-large;">8:00 - 9:00 </li>
+         </th>
+         <ul>
+            <li><%=user.tuesday.eight.subject%> (<%=user.tuesday.eight.room%>)</li>
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">9:00 -10:00</li>
+         </th>
+         <ul>
+            <li><%=user.tuesday.nine.subject %>(<%=user.tuesday.nine.room%>)</li>
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">10:00 - 11:00</li>
+         </th>
+         <ul>
+            <li><%=user.tuesday.ten.subject%> (<%=user.tuesday.ten.room%>)</li>
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">11:00 - 12:00</li>
+         </th>
+         <ul>
+            <li><%=user.tuesday.ele.subject%> (<%=user.tuesday.ele.room%>)</li>
+         </ul>
+         <hr><br>
+      </div>
+
+      <div class="Day3">
+         Wednesday
+      </div>
+      <div class="container2">
+
+         <th>
+            <li style="font-size: x-large;">8:00 - 9:00 </li>
+         </th>
+         <ul>
+            <li><%=user.wednesday.eight.subject%> (<%=user.wednesday.eight.room%>)</li>
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">9:00 -10:00</li>
+         </th>
+         <ul>
+            <li><%=user.wednesday.nine.subject%> (<%=user.wednesday.nine.room%>)</li>
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">10:00 - 11:00</li>
+         </th>
+         <ul>
+            <li><%=user.wednesday.ten.subject%> (<%=user.wednesday.ten.room%>)</li>
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">11:00 - 12:00</li>
+         </th>
+         <ul>
+            <li><%=user.wednesday.ele.subject%> (<%=user.wednesday.ele.room%>)</li>
+         </ul>
+         <hr><br>
+      </div>
+      <div class="Day4">
+         Thursday
+      </div>
+      <div class="container3">
+         <th>
+            <li style="font-size: x-large;">8:00 - 9:00 </li>
+         </th>
+         <ul>
+            <li><%=user.thursday.eight.subject%> (<%=user.thursday.eight.room%>)</li>
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">9:00 -10:00</li>
+         </th>
+         <ul>
+            <li><%=user.thursday.nine.subject%> (<%=user.thursday.nine.room%>)</li>
+
+
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">10:00 - 11:00</li>
+         </th>
+         <ul>
+            <li><%=user.thursday.ten.subject%> (<%=user.thursday.ten.room%>)</li>
+
+
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">11:00 - 12:00</li>
+         </th>
+         <ul>
+            <li><%=user.thursday.ele.subject%> (<%=user.thursday.ele.room%>1)</li>
+
+
+         </ul>
+         <hr><br>
+      </div>
+      <div class="Day5">
+         Friday
+      </div>
+      <div class="container4">
+
+         <th>
+            <li style="font-size: x-large;">8:00 - 9:00 </li>
+         </th>
+         <ul>
+            <li><%=user.friday.eight.subject%> (<%=user.friday.eight.room%>)</li>
+
+
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">9:00 -10:00</li>
+         </th>
+
+
+         <ul>
+            <li><%=user.friday.nine.subject%> (<%=user.friday.nine.room%>)</li>
+
+
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">10:00 - 11:00</li>
+         </th>
+         <ul>
+            <li><%=user.friday.ten.subject%> (<%=user.friday.ten.room%>)</li>
+
+
+         </ul>
+         <hr><br>
+         <th>
+            <li style="font-size: x-large;">11:00 - 12:00</li>
+         </th>
+         <ul>
+            <li><%=user.friday.ele.subject%> (<%=user.friday.ele.room%>)</li>
+
+
+         </ul>
+         <hr><br>
+      </div>
+   </div>
+    <%}})%>
+</body>
+
+</html>

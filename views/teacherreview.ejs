@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Faculty Details</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="/assets/teacher_review.css">
+   <link rel="stylesheet" href="/assets/fontawesome-free-5.14.0-web/css/all.css">
+
+</head>
+
+<body>
+
+   <div id="nav">
+      <div id="navbar">
+        <a id="active" href="/home"><img src="/assets/icon.jpeg"></a>
+        <ul id="l">
+          <li><a  href="/home"><i class="fas fa-home"></i>Home</a></li>
+          <li><a href="/timetable"><i class="far fa-calendar-alt"></i>Timetable</a></li>
+          <li><a id="active" href="/teacher"><i class="fas fa-user-tie"></i>Faculty</a></li>
+          <li><a href="/attendance"><i class="fas fa-calendar-check"></i>Attendance</a></li>
+          <li><a  href="/coursepage"><i class="fas fa-book"></i>Course Page</a></li>
+          <li><a  href="/submit"><i class="fas fa-file-code"></i>Assigment</a></li>
+          <li><a  href="/about"><i class="fas fa-file-powerpoint"></i>About Us</a></li>
+        </ul>
+      </div>
+   </div>
+   <div id="search">
+
+      <div id="faculty">
+         <h1 class="display-4 ">Faculty Info</h1>
+      </div>
+      <div class="row justify-content-around" id="search-bar">
+         <!-- <i class="fas fa-search"></i> -->
+
+         <input class="form-control col-10" type="text" placeholder="Search Faculties">
+         <button onclick="location.href='/teacherreviewsearch'" type="button" class="btn btn-success col-1"
+            id="search-button">Search</button>
+      </div>
+      <div id="pic">
+      </div>
+
+   </div>
+   <div id="your-teachers">
+
+      <div class="container" id="list-parent">
+         <div class="row">
+            <div class="col-9 p-3" id="black">
+               <h1 class="display-4 ">Your Faculties</h1>
+            </div>
+            <div class="col-3" id="white">
+            </div>
+         </div>
+
+
+         <div id="list">
+            <a href="teacher_review_info.html">
+               <div class="my-teacher bg-yellow">
+                  <div class="row ">
+                     <img class="col-3 rounded-circle" src="/assets/nalini.png" alt="">
+                     <div class="col-9">
+                        <div class="flex-column">
+                           <h5>Name : Nalini N</h5>
+                           <h5> Subject : CSE3002-IWP</h5>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="my-teacher bg-yellow">
+                  <div class="row ">
+                     <img class="col-3 rounded-circle" src="/assets/murali.png" alt="">
+                     <div class="col-9">
+                        <div class="flex-column">
+                           <h5>Name : Murali S</h5>
+                           <h5> Subject : CSE3501-Nasscom</h5>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="my-teacher bg-yellow">
+                  <div class="row ">
+                     <img class="col-3 rounded-circle" src="/assets/preetha.png" alt="">
+                     <div class="col-9">
+                        <div class="flex-column">
+                           <h5>Name : Preetha D</h5>
+                           <h5> Subject : CSE4001-PDC</h5>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="my-teacher bg-yellow">
+                  <div class="row ">
+                     <img class="col-3 rounded-circle" src="/assets/suresh.png" alt="">
+                     <div class="col-9">
+                        <div class="flex-column">
+                           <h5>Name : Sureshkumar N</h5>
+                           <h5> Subject : CSE4004-DF</h5>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="my-teacher bg-yellow">
+                  <div class="row ">
+                     <img class="col-3 rounded-circle" src="/assets/udhaykumar.png" alt="">
+                     <div class="col-9">
+                        <div class="flex-column">
+                           <h5>Name : Udhaykumar R</h5>
+                           <h5> Subject : MAT1013-Discrete</h5>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </a>
+         </div>
+
+      </div>
+   </div>
+</body>
+
+</html>

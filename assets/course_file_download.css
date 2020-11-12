@@ -1,0 +1,91 @@
+#mainContent {
+    background-color: white;
+}
+
+#menu-main-menu {
+    line-height: 4rem;
+}
+
+#logo {
+    width: 6rem;
+    height: 5rem;
+
+}
+#mine {
+    background-color: #EAEDEF;
+}
+#mainNavbar{
+    height: 47rem;
+}
+
+
+h3 {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    padding-left: 5rem;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    /* width: 45rem; */
+}
+
+h2 {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    border: 2px solid #ffca00;
+    background-color: #ffca00;
+    color: white;
+    height: 88px;
+    /* width: 15rem; */
+}
+
+
+#menu-main-menu .nav-item .nav-link {
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+#menu-main-menu .nav-item .nav-link:hover {
+    color: gray;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+
+#icon {
+    color: #ffca00;
+    padding-right: 10px;
+}
+
+@media (min-width: 768px), all {
+.navbar-expand-md .navbar-toggler {
+    display: none;
+    }
+}
+
+.navbar-expand-md{
+-ms-flex-flow: column wrap !important;
+flex-flow: column wrap !important;
+}
+
+#myFile {
+    width: 210px;
+}
+
+#button {
+    border: none;
+    background-color: white;
+    color: #ffca00;
+    float: right;
+}
+
+#l #active{
+    color: #ffca00;
+}
+
+#l a:hover{
+    color: #ffca00;
+    text-decoration: none;
+}
