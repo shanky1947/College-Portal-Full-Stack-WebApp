@@ -9,22 +9,12 @@ Full stack web application with pages of downloading assignment, uploading assig
 
 
 <p align="center">
+    <img src="https://forthebadge.com/images/badges/uses-html.svg" alt="HTML">
 
-  <a href="">
-    <img src="https://forthebadge.com/images/badges/uses-html.svg"
-         alt="HTML">
-  </a>
-   <a href="">
-    <img src="https://forthebadge.com/images/badges/uses-css.svg"
-         alt="CSS">
-  </a>
+    <img src="https://forthebadge.com/images/badges/uses-css.svg" alt="CSS">
 
-  <a href="https://github.com/shanky1947/College-Portal-Full-Stack-Website">
-    <img src="https://forthebadge.com/images/badges/uses-git.svg"
-         alt="Git">
-  </a>
-    <a href="">
-    <img src="https://forthebadge.com/images/badges/made-with-javascript.svg"
-         alt="Javascript">
-  </a>
+
+   <img src="https://forthebadge.com/images/badges/uses-git.svg" alt="Git">
+  
+    <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" alt="Javascript">
 </p>
