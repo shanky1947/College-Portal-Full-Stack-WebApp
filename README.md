@@ -9,11 +9,21 @@ Full stack web application with pages of downloading assignment, uploading assig
 
 
 <p align="center">
-    <img src="https://forthebadge.com/images/badges/uses-html.svg" alt="HTML">
 
-    <img src="https://forthebadge.com/images/badges/uses-css.svg" alt="CSS">
-
-   <img src="https://forthebadge.com/images/badges/uses-git.svg" alt="Git">
-  
-    <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" alt="Javascript">
+  <a href="">
+    <img src="https://forthebadge.com/images/badges/uses-html.svg"
+         alt="HTML">
+  </a>
+  <a href="">
+    <img src="https://forthebadge.com/images/badges/uses-css.svg"
+         alt="CSS">
+  </a>
+  <a href="">
+    <img src="https://forthebadge.com/images/badges/made-with-javascript.svg"
+         alt="Git">
+  </a>
+    <a href="">
+    <img src="https://forthebadge.com/images/badges/made-with-python.svg"
+         alt="Javascript">
+  </a>
 </p>
