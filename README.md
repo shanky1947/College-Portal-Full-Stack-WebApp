@@ -1,5 +1,3 @@
-# College-Portal
-Full stack web application with pages of downloading assignment, uploading assignment, checking plagarism, adding information and login authentication etc.
 
 <h1 align="center">
 <!--   <a href="https://github.com/umangraval/Smart-Checkout"><img src="./brand_assets/banner.png" width=600 alt="Smart-Checkout"></a> -->
@@ -27,3 +25,6 @@ Full stack web application with pages of downloading assignment, uploading assig
          alt="Javascript">
   </a>
 </p>
+
+
+Full stack web application with pages of downloading assignment, uploading assignment, checking plagarism, adding information and login authentication etc.
