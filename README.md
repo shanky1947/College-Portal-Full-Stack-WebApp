@@ -13,7 +13,6 @@ Full stack web application with pages of downloading assignment, uploading assig
 
     <img src="https://forthebadge.com/images/badges/uses-css.svg" alt="CSS">
 
-
    <img src="https://forthebadge.com/images/badges/uses-git.svg" alt="Git">
   
     <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" alt="Javascript">
