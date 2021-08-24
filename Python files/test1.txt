@@ -1,0 +1,8 @@
+Data at Rest It includes scanning of storage and other content repositories to identify where sensitive
+content is located . We call this content discovery . For example , you can use a DLP product to scan
+your servers So Far Away Twisting by the Pool Skateaway Walk of Life Romeo and Juliet Tunnel of
+Love Money for Nothing Sultans of Swing Achilles and identify documents with credit card numbers .
+If the server isn't authorized for that kind of data , the file can be encrypted or removed or a warning
+sent to the file owner .
+
+
